@@ -1,12 +1,13 @@
 import './App.css';
 import './PokeCard.css';
 import PokeCard from './PokeCard';
-import Pokedex from './Pokedex';
+import PokeGame from './PokeGame';
 
 function App() {
   return (
     <div className="App">
-      <Pokedex/>
+      <h1 style={{color:"#f5576c"}}>Pokemon Game</h1>
+      <PokeGame/>
     </div>
   );
 }
